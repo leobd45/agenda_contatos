@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+   
+    
+}
+header img {
+    height: 36px;
+    margin-right: 16px;
+    
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+  
+
+}
+form input{
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    margin-right: 24px;
+}
+form button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 15px;
+}
+form button:hover{
+    background-color: rgb(163, 31, 31);
+    
+}
+body{
+    padding-top: 100px;
+    background-color: black;
+    font-family: "Roboto", bold;
+    font-weight: 100;
+    font-style: normal;
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+}
+table td img{
+    height: 36px;
+}
+
+tbody tr{
+font-size: 18px;
+text-align: center;   
+}
+tbody tr td{
+    border-bottom: 2px solid rgb(145, 140, 140);   
+    }
